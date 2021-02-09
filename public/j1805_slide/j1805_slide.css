@@ -1,0 +1,10 @@
+.j1805-slide{
+    overflow: hidden;
+}
+
+.j1805-slide-contenedor{
+    /*display: none;*/
+    text-align: center !important;
+    min-width: 100%;
+    transition: all .75s ease;
+}

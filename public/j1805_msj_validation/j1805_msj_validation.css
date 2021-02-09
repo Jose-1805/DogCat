@@ -1,0 +1,22 @@
+/**
+PARA MENSAJES DE VALIDACION POR CAMPO
+ */
+.input-validado-danger input[type='text'],
+.input-validado-danger input[type='password'],
+.input-validado-danger textarea{
+    border-bottom-color: #dc3545;
+}
+.input-validado-danger select{
+    border-color: #dc3545;
+}
+
+.input-validado-danger label{
+    color: #dc3545;
+}
+
+.input-validado input[type='text'],
+.input-validado input[type='password'],
+.input-validado select,
+.input-validado textarea{
+
+}

@@ -1,0 +1,18 @@
+#publicaciones{
+}
+
+#load-publicaciones{
+    height: 80px;
+}
+
+.publicacion-item .encabezado-publicacion .avatar,.publicacion-item .encabezado-publicacion .data{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.btn-nueva-publicacion{
+    position: fixed;
+    right: 3%;
+    top: 20px;
+    z-index: 1;
+}

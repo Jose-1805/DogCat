@@ -1,0 +1,247 @@
+#contenedor_notificaciones_show{
+    position: fixed !important;
+    height: auto !important;
+    width: 320px !important;
+    z-index: 1 !important;
+    bottom: 30px !important;
+    right: 20px !important;
+}
+
+.notificacion_show{
+    background-color: white;
+    border: 1px solid #009688;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition-property: all;
+    transition-duration: 500ms;
+    -moz-transition-property: all;
+    -moz-transition-duration: 500ms;
+    -o-transition-property: all;
+    -o-transition-duration: 500ms;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 500ms;
+}
+
+.notificacion_show .notificacion_show_header{
+    background-color: #009688;
+    padding: 7px 10px;
+}
+
+.notificacion_show .notificacion_show_body{
+    padding: 10px 10px;
+}
+
+.notificacion_show .notificacion_show_header *{
+    color: #FFF;
+    font-weight: bold !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.notificacion_show .notificacion_show_header .btn_cerrar_notificacion_show{
+    float: right;
+    cursor: pointer;
+    margin-top: -25px !important;
+}
+
+.notificacion_show .notificacion_show_body .notificacion_show_icono{
+    display: inline-block;
+    width: 15%;
+    height: 50px;
+    vertical-align: top;
+    border-radius: 50%;
+}
+
+.notificacion_show .notificacion_show_body .notificacion_show_icono img{
+    max-width: 100%;
+}
+
+.notificacion_show .notificacion_show_body .notificacion_show_mensaje{
+    width: 83%;
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.notificacion_show .notificacion_show_body .notificacion_show_mensaje *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.notificacion_show.importancia_baja{
+    border: 1px solid #2599ff;
+}
+
+.notificacion_show.importancia_baja .notificacion_show_header{
+    background-color: #2599ff;
+}
+
+.btn_outline_importancia_baja{
+    border-color: #2599ff !important;
+    color: #2599ff !important;
+}
+
+.notificacion_show.importancia_media{
+    border: 1px solid #009688;
+}
+
+.notificacion_show.importancia_media .notificacion_show_header{
+    background-color: #009688;
+}
+
+.btn_outline_importancia_media{
+    border-color: #009688 !important;
+    color: #009688 !important;
+}
+
+.notificacion_show.importancia_alta{
+    /*border: 1px solid #ff4e4e;*/
+    border: 1px solid #ffae2e;
+}
+
+.notificacion_show.importancia_alta .notificacion_show_header{
+    /*background-color: #ff4e4e;*/
+    background-color: #ffae2e;
+}
+
+.btn_outline_importancia_alta{
+    border-color: #ffae2e !important;
+    color: #ffae2e !important;
+}
+
+@media (max-width: 450px) {
+    #contenedor_notificaciones_show{
+        width: 100% !important;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+}
+
+.icono_alarma_animado {
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-name: alarma;
+}
+
+@keyframes alarma {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    3% {
+        transform: rotate(-5deg);
+    }
+
+    5% {
+        transform: rotate(5deg);
+    }
+
+    8% {
+        transform: rotate(-5deg);
+    }
+
+    10% {
+        transform: rotate(5deg);
+    }
+
+    13% {
+        transform: rotate(-5deg);
+    }
+
+    15% {
+        transform: rotate(5deg);
+    }
+
+    18% {
+        transform: rotate(-5deg);
+    }
+
+    20% {
+        transform: rotate(5deg);
+    }
+
+    23% {
+        transform: rotate(-5deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    28% {
+        transform: rotate(-5deg);
+    }
+
+    30% {
+        transform: rotate(5deg);
+    }
+
+    33% {
+        transform: rotate(5deg);
+    }
+
+    35% {
+        transform: rotate(-5deg);
+    }
+
+    38% {
+        transform: rotate(5deg);
+    }
+
+    40% {
+        transform: rotate(-5deg);
+    }
+
+    43% {
+        transform: rotate(5deg);
+    }
+
+    45% {
+        transform: rotate(-5deg);
+    }
+
+    48% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    53% {
+        transform: rotate(5deg);
+    }
+
+    55% {
+        transform: rotate(-5deg);
+    }
+
+    58% {
+        transform: rotate(5deg);
+    }
+
+    60% {
+        transform: rotate(-5deg);
+    }
+
+    63% {
+        transform: rotate(5deg);
+    }
+
+    65% {
+        transform: rotate(0deg);
+    }
+}
+
+.notificacion_importancia_baja{
+    border-left: 3px solid #2599ff !important;
+}
+
+.notificacion_importancia_media{
+    border-left: 3px solid #009688 !important;
+}
+
+.notificacion_importancia_alta{
+    border-left: 3px solid #ffae2e !important;
+}
